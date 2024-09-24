@@ -10,21 +10,35 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    color: #3a3a3a;
 }
-
+#logo{
+    font-weight: bolder;
+    padding: 0 1rem;
+}
 header{
     background-color: white;
     position:fixed;
     width: 100%;
     z-index: 99;
-    box-shadow: 0 2px 2px;
+    box-shadow: 0 2px 2px;    
 }
 
 header a{
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: inherit;
+}
+
+#menu{
+    letter-spacing: 4px;
+    font-size: 110%;
+    list-style: none;
+}
+
+ul li{
+    margin-bottom: 1rem;
 }
 
 main{
@@ -32,6 +46,9 @@ main{
     flex: 1 0 auto;
 }
 
+.active{
+    border-bottom :1px solid #3a3a3a ;
+}
 
 footer{
     background-color: red;
