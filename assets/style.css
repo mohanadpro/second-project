@@ -21,14 +21,17 @@ header{
     box-shadow: 0 2px 2px;
 }
 
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 main{
     background-color: bisque;
     flex: 1 0 auto;
 }
 
-h1{
-    font-family: "Shadows Into Light", cursive;
-}
 
 footer{
     background-color: red;
