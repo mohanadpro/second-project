@@ -14,13 +14,16 @@ body{
 }
 
 header{
-    background-color: aqua;
+    background-color: white;
+    position:fixed;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0 2px 2px;
 }
 
 main{
     background-color: bisque;
-    /* flex: 1 0 auto; */
-    flex: 1 0 ;
+    flex: 1 0 auto;
 }
 
 h1{
