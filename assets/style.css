@@ -20,6 +20,7 @@ body{
 header{
     background-color: white;
     position:fixed;
+    padding: 0;
     width: 100%;
     z-index: 99;
     box-shadow: 0 2px 2px;
@@ -27,6 +28,8 @@ header{
     justify-content: space-between;
     align-items: baseline;
 }
+
+
 
 header a{
     text-decoration: none;
@@ -52,6 +55,8 @@ nav{
     display: none;
 }
 
+
+
 #toggel-nav{
     display: none;
 }
@@ -69,11 +74,12 @@ ul li{
     list-style: none;
 }
 
-
+   
 
 main{
     background-color: bisque;
     flex: 1 0 auto;
+    margin-top: 69px;
 }
 
 
@@ -84,5 +90,46 @@ main{
 
 footer{
     background-color: blue;
+  padding: 20px 25px ;
+}
+
+footer ul{
+    display: flex;
+    gap: 40px;
+}
+
+footer i{
+    color: white;
+    font-size: 22px;
+}
+
+
+@media screen and (min-width:768px){
+    header{
+        /* width: 100%; */
+        display: flex;
+        justify-content: space-between;
+        box-shadow: none;
+    }
+    header a{
+        flex:2;
+    }
+    main{
+        margin-top: 78px;
+    }
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    nav{
+        display: block;
+        position: relative;
+        flex: 2;
+    }
+    .nav-toggel-label{
+        display: none;
+    }
 
 }
