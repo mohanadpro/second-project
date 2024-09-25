@@ -81,11 +81,20 @@ main{
     margin-top: 69px;
 }
 
-main #hero {
-    background-color: red;
+#hero {
     height: 600px;
     background: url('../images/hero-image.webp') no-repeat center center/cover;
     width: 100%;
+    position: relative;;
+}
+
+#cover-text{
+    background-color: rgba(241, 109, 107, .7);
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    padding-left: 40px;
+    color: white;
 }
 
 .active{
@@ -135,5 +144,10 @@ footer i{
     .nav-toggel-label{
         display: none;
     }
-
+    
+    /* adjust cover text in Hero */
+    #cover-text{
+        width: 30%;
+        right: 30px;
+    }
 }
