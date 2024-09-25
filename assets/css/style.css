@@ -6,7 +6,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.hidden{
+    display: none;
+}
 body{
     height: 100vh;
     display: flex;
@@ -140,7 +142,22 @@ main{
     justify-content: center;
     align-items: center;   
 }
-
+#meetups{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    background: url('../images/dublin-city.webp') no-repeat center center/cover;
+    
+}
+#meetups > div{
+    border: 1px solid #3a3a3a;   
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+}
 footer{
   padding: 20px 0px ;
 }
