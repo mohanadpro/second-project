@@ -77,12 +77,16 @@ ul li{
    
 
 main{
-    background-color: bisque;
     flex: 1 0 auto;
     margin-top: 69px;
 }
 
-
+main #hero {
+    background-color: red;
+    height: 600px;
+    background: url('../images/hero-image.webp') no-repeat center center/cover;
+    width: 100%;
+}
 
 .active{
     border-bottom :1px solid #3a3a3a ;
