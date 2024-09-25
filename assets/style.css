@@ -89,17 +89,17 @@ main{
 }
 
 footer{
-    background-color: blue;
-  padding: 20px 25px ;
+  padding: 20px 0px ;
 }
 
 footer ul{
     display: flex;
+    justify-content: space-evenly;
     gap: 40px;
 }
 
 footer i{
-    color: white;
+    color: #3a3a3a;
     font-size: 22px;
 }
 
