@@ -188,7 +188,7 @@ main{
 .sign-up input[type=text],.sign-up input[type=email]{
     padding: 0 5px;
     margin: 5px 0 20px 0;
-    color: transparent;
+    background-color: transparent;
     color: white;
     border: 2px solid #fafafa;
     border-radius: 2px;
