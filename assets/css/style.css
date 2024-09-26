@@ -160,8 +160,11 @@ main{
 }
 
 #photos{
-    width: 100%;
     line-height: 0;
+}
+
+#photos img{
+    width: 100%;
 }
 
 #signup{
@@ -335,6 +338,5 @@ footer i{
     .sign-up input[type=submit]
         {
             width: 30%;
-
         }
 }
